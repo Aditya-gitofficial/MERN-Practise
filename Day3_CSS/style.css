@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.Box1{
+    color:brown;
+    background-color: bisque;
+
+    box-sizing: border-box;
+    
+    padding: 16px;
+    border: 10px solid salmon;
+    margin: 24px;
+    
+    height: 100%;
+    width: 200px;
+}
+.Box2{
+    color:blueviolet;
+    background-color: blanchedalmond;
+    
+    box-sizing: content-box;
+
+    padding: 16px;
+    border: 10px solid blueviolet;
+    margin: 24px;
+
+    height: 100%;
+    width: 200px;
+}
+
+.Parent{
+    background-color: aquamarine;
+    font-size: 20px;
+    padding: 0.5em 1em;
+    margin: 1em;
+    width: 400px;
+}
+
+.Child{
+    background-color: lightsalmon;
+    font-size: 16px;
+    width: 50%;
+    padding: 0.5em 1em;
+}

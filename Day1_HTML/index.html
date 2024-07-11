@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First HTML</title>
+</head>
+<body>
+    
+    
+    <!-- Semantics tags -->
+    <header></header>
+    <aside></aside>
+    <main></main>
+    <section></section>
+    <footer></footer>
+    <nav></nav>
+    <!-- self closing tags -->
+    
+    <img src="https://images.pexels.com/photos/1547813/pexels-photo-1547813.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" height="250" alt=""> <!-- src is known as attribute -->
+    <br/>
+    <hr/>
+    <!-- anchor tag -->
+    <!-- use of the target attribute and relative link and absolute link. If we write www.google.com(relative path) then link that anchor tag then the url becomes /localhost1108/www.google.com which won't work/open but if we write https://www.google.com(absolute path) now it will work fine. Similarly #JS which is and id to an elements will work as relative path and it will help to open the page with that element at the top.-->
+    <a href="https://www.youtube.com/?gl=IN" target="_blank">Click Me (Blank) </a>
+    <a href="#h6" target="_top">Click Me (Top) </a>
+    <a href="#JS" target="_parent">Click Me (Parent) </a>
+    <a href="https://www.youtube.com/?gl=IN" target="_self">Click Me (Self)</a>
+    <bdo dir="ltr">This text will be left-to-right.</bdo>
+    <bdo dir="rtl">This text will be right-to-left.</bdo>
+    <p>English text with <bdo dir="rtl">עברית</bdo> mixed in.</p>
+
+
+    
+    <section>
+        <h3>Introduction to HTML</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea itaque corporis doloremque asperiores, quae voluptate inventore quaerat soluta, omnis laboriosam harum et fugiat quia porro earum? Vel libero nulla blanditiis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio eaque odit aliquam qui vero quaerat voluptatem? Laudantium eligendi suscipit voluptates optio est, quas culpa dolor, excepturi quia eos expedita sint tempora ullam, molestiae in ab dignissimos quisquam! Id, modi eligendi.</p>
+    </section>
+    <section>
+        <h3>Introduction to CSS</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea itaque corporis doloremque asperiores, quae voluptate inventore quaerat soluta, omnis laboriosam harum et fugiat quia porro earum? Vel libero nulla blanditiis!</p>
+    </section>
+    <section id="JS">
+        <h3>JS</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea itaque corporis doloremque asperiores, quae voluptate inventore quaerat soluta, omnis laboriosam harum et fugiat quia porro earum? Vel libero nulla blanditiis!</p>
+    </section>
+    <section>
+        <h3>C++</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea itaque corporis doloremque asperiores, quae voluptate inventore quaerat soluta, omnis laboriosam harum et fugiat quia porro earum? Vel libero nulla blanditiis!</p>
+    </section>
+    <section>
+        <h3>Python</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea itaque corporis doloremque asperiores, quae voluptate inventore quaerat soluta, omnis laboriosam harum et fugiat quia porro earum? Vel libero nulla blanditiis!</p>
+    </section>
+
+
+    <iframe src="https://www.flipkart.com/" height="350" width="25%"></iframe>
+    <iframe src="./products.html" height="350" width="25%"></iframe>
+
+<!-- page -> contains a iframe of another page -> contains iframe of another page now anchor tag top,self,parent come into picture. self will open in the same iframe, parent will open in the iframe just above it and top will open in the iframe of the topmost level. -->
+
+
+
+
+</body>
+</html>
